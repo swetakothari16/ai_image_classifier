@@ -1,0 +1,27 @@
+name: ai_image_classifier
+description: "A simple and powerful Flutter package for on-device image classification using TensorFlow Lite models. Supports custom models, image resizing, and normalization."
+version: 1.0.0
+homepage: https://github.com/swetakothari16/ai_image_classifier
+repository: https://github.com/swetakothari16/ai_image_classifier
+issue_tracker: https://github.com/swetakothari16/ai_image_classifier/issues
+
+environment:
+  sdk: ">=3.10.4 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.12.1
+  image: ^4.8.0
+  image_picker: ^1.2.2
+  camera: ^0.12.0+1
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
