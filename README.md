@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Image Classifier
 A Flutter package for easy on-device image classification using TensorFlow Lite models.
 
@@ -60,3 +61,6 @@ You can download a pre-trained MobileNet model from TensorFlow Hub:
 
 ## License
 MIT
+=======
+# ai_image_classifier
+>>>>>>> 45b5afbb9e165e764d9172268b8f7b3279e80ff5
